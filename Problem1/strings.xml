@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UI1</string>
+    <string name="text1">Microsoft Teams</string>
+    <string name="text2">Get started with your work, school or personal Microsoft account</string>
+    <string name="text3">Sign in</string>
+    <string name="text4"> Get help with signing in</string>
+    <string name="text5">Join a meeting</string>
+    <string name="text6">Sign up for free</string>
+    <string name="hint1">Enter email, phone, or Skype</string>
+</resources>
