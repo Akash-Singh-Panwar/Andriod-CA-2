@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text = "@string/text1"
+        android:textSize= "25sp"
+        android:textColor="#EF0606"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+    />
+
+    <TextView
+        android:id = "@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/text2"
+        android:textColor="#EF0606"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/txt1"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+    />
+
+    <EditText
+        android:id = "@+id/etxt1"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:hint="@string/editText1"
+        android:textColorHint="#FF6262"
+        android:textColor="#EF0606"
+        android:textAlignment="center"
+        android:layout_below="@id/txt1"
+        android:layout_toEndOf="@id/txt2"
+        android:layout_marginTop="18dp"
+        android:backgroundTint="@color/black"
+    />
+
+    <TextView
+        android:id = "@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text3"
+        android:textSize="20sp"
+        android:textColor="#EF0606"
+        android:textStyle="bold"
+        android:layout_below="@id/txt2"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart = "20dp"
+    />
+
+    <EditText
+        android:id="@+id/etxt2"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/etxt1"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@id/txt3"
+        android:backgroundTint="@color/black"
+        android:hint="@string/editText2"
+        android:textAlignment="center"
+        android:textColor="#EF0606"
+        android:textColorHint="#FF6262"
+    />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt3"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/text4"
+        android:textColor="#EF0606"
+        android:textSize="20sp"
+        android:textStyle="bold"
+    />
+
+    <EditText
+        android:id="@+id/etxt3"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/etxt2"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@id/txt4"
+        android:backgroundTint="@color/black"
+        android:hint="@string/editText3"
+        android:textAlignment="center"
+        android:textColor="#EF0606"
+        android:textColorHint="#FF6262"
+    />
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt4"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/text5"
+        android:textColor="#EF0606"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+    />
+
+    <EditText
+        android:id="@+id/etxt4"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/etxt3"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@id/txt4"
+        android:backgroundTint="@color/black"
+        android:hint="@string/editText4"
+        android:textAlignment="center"
+        android:textColor="#EF0606"
+        android:textColorHint="#FF6262"
+    />
+
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt5"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/text6"
+        android:textColor="#EF0606"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+    />
+    <RadioGroup
+        android:id = "@+id/radg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt6"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rd1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gen1"
+            android:textColor="#EF0606"
+            android:textSize="18sp"
+            android:layout_marginStart="15dp"
+            android:buttonTint="@color/black"
+        />
+        <RadioButton
+            android:id="@+id/rd2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "@string/gen2"
+            android:textColor="#EF0606"
+            android:textSize="18sp"
+            android:layout_marginStart="15dp"
+            android:buttonTint="@color/black"
+        />
+        <RadioButton
+            android:id="@+id/rd3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gen3"
+            android:textColor="#EF0606"
+            android:textSize="18sp"
+            android:layout_marginStart="15dp"
+            android:buttonTint="@color/black"
+        />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/txt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radg1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/text7"
+        android:textColor="#EF0606"
+        android:textSize="20sp"
+        android:textStyle="bold"
+    />
+    <CheckBox
+        android:id = "@+id/cb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt7"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/lang1"
+        android:textSize="20sp"
+        android:textColor="#EF0606"
+        android:buttonTint="@color/black"
+    />
+    <CheckBox
+        android:id = "@+id/cb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cb1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/lang2"
+        android:textSize="20sp"
+        android:textColor="#EF0606"
+        android:buttonTint="@color/black"
+        />
+    <CheckBox
+        android:id = "@+id/cb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cb2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/lang3"
+        android:textSize="20sp"
+        android:textColor="#EF0606"
+        android:buttonTint="@color/black"
+        />
+    <CheckBox
+        android:id = "@+id/cb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cb3"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/lang4"
+        android:textSize="20sp"
+        android:textColor="#EF0606"
+        android:buttonTint="@color/black"
+        />
+    <CheckBox
+        android:id = "@+id/cb5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cb4"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/lang5"
+        android:textSize="20sp"
+        android:textColor="#EF0606"
+        android:buttonTint="@color/black"
+        />
+    <Button
+        android:id = "@+id/btn1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:text="@string/text8"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#FDFDFD"
+        android:backgroundTint="#504E4E"
+    />
+</RelativeLayout>
