@@ -9,6 +9,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val btn1 = findViewById<Button>(R.id.btn1)
+        //this was for checking buttons
         btn1.setOnClickListener{
             println("button 1 pressed")
         }
